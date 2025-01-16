@@ -1,0 +1,12 @@
+/* ==========================================================================
+   Block: Gallery
+   Dependencies: jquery.lightslider.less
+   Docs: https://github.com/sachinchoolur/lightslider
+   ========================================================================== */
+.gallery__holder.lSSlideOuter.vertical .lSAction {
+  display: none;
+}
+.gallery__holder.lSSlideOuter .lSPager.lSGallery li.active,
+.gallery__holder.lSSlideOuter .lSPager.lSGallery li:hover {
+  border-radius: 0;
+}

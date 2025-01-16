@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700" rel="stylesheet">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>PARASOLL Personligt ombud för psykiskt funktionshindrade</title>
+    <!-- TemplateEndEditable -->
+    <!-- Bootstrap core CSS -->
+    <link href="../parasoll_1/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+<!--
+Ramayana CSS Template
+https://templatemo.com/tm-529-ramayana
+-->
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../parasoll_1/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../parasoll_1/assets/css/templatemo-style.css">
+    <link rel="stylesheet" href="../parasoll_1/assets/css/owl.css">
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  </head>
+
+<body class="is-preload">
+
+    <!-- Wrapper -->
+    <div id="wrapper">
+
+      <!-- Main -->
+        <div id="main">
+          <div class="inner">
+
+            <!-- Header -->
+            <header id="header">
+              <div class="logo">
+                <a href="../parasoll_1/index.html">PARASOLL</a>
+              </div>
+            </header>
+
+            <!-- Banner -->
+            <section class="main-banner">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="banner-content">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="banner-caption">
+                            <h4><em>PARASOLL</em></h4><br>
+							  Personligt ombud för psykiskt funktionshindrade <br><br>
+                            
+                            <p>”Parasoll är en brukardriven och icke-vinstdriven organisation som ska arbeta effektivt för målgruppens bästa och vars arbete präglas av öppenhet, hög kvalitet och ett stort personalinflytande.”<p>
+                            <div class="primary-button">
+                              <a href="#">Read More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Services -->
+            <section class="services">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-4">
+                    <div class="service-item first-item">
+                      <div class="icon"></div>
+                      <h4>Danderyd</h4>
+                      <p>Credit goes to <a rel="nofollow" href="https://www.pexels.com">Pexels</a> and <a rel="nofollow" href="https://www.rawpixel.com">Raw Pixel</a> for images used in this template. Thank you.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="service-item second-item">
+                      <div class="icon"></div>
+                      <h4>Sollentuna</h4>
+                      <p>Proin aliquam facilisis ante interdum. Sed nulla feugiat tempus aliquam.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="service-item third-item">
+                      <div class="icon"></div>
+                      <h4>Solna Sundbyberg</h4>
+                      <p>Proin aliquam facilisis ante interdum. Sed nulla feugiat tempus aliquam.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="service-item fourth-item">
+                      <div class="icon"></div>
+                      <h4>Upplands Väsby Sigtuna</h4>
+                      <p>We have many free to use CSS web templates on our site for you.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="service-item fivth-item">
+                      <div class="icon"></div>
+                      <h4>Upplands Bro <h4>
+                      <p>You can get the fastest response from <a rel="nofollow" href="https://www.facebook.com/templatemo">templatemo</a> facebook page.</p>
+                    </div>
+                  </div>
+                  <div class="col-md-4">
+                    <div class="service-item sixth-item">
+                      <div class="icon"></div>
+                      <h4>Norrtälje</h4>
+                      <p>Please tell your friends about our website. This is very helpful.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Top Image -->
+            <section class="top-image">
+              <div class="container-fluid">
+                <div class="row">
+                  <div class="col-md-12">
+					  <!-- TemplateBeginEditable name="1_region" --><img src="../parasoll_1/assets/images/top-image.jpg" alt="">
+                      	<div class="down-content">
+                      	  <h4>Ante Interdum Chambray</h4>
+                      	  <p>Lorem ipsum dolor amet raclette chambray bitters, hammock celiac slow-carb flexitarian four dollar toast food truck health goth. Air plant brunch food truck vegan scenester organic crucifix irony pour-over pop-up austin hexagon kitsch swag. Godard literally humblebrag cloud bread vice master cleanse chambray typewriter put a bird on it brooklyn forage.</p>
+                     	   <div class="primary-button"> <a href="#">Read More</a> </div>
+                     	 </div>
+                  	  <!-- TemplateEndEditable --></div>
+                </div>
+              </div>
+            </section>
+
+            <!-- Left Image -->
+            <section class="left-image">
+              <div class="container-fluid">
+                <div class="row">
+				<!-- TemplateBeginEditable name="2_region" -->
+                  		<div class="col-md-6"> <img src="../parasoll_1/assets/images/left-image.jpg" alt=""> </div>
+                  			<div class="col-md-6">
+                  			  <div class="right-content">
+                      				<h4>Ante Interdum Raclette</h4>
+                     			 <p>Lorem ipsum dolor amet raclette chambray bitters, hammock celiac slow-carb flexitarian four dollar toast food truck health goth. Air plant brunch food truck vegan scenester organic crucifix irony pour-over pop-up austin hexagon kitsch swag. Godard literally humblebrag cloud bread vice master cleanse chambray typewriter put a bird on it brooklyn forage.<br>
+                       			 <br>
+                        		Air plant brunch food truck vegan scenester organic crucifix irony pour-over pop-up austin hexagon kitsch swag. Godard literally humblebrag cloud bread vice master cleanse chambray typewriter put bird brooklyn</p>
+                      		<div class="primary-button"> <a href="#">Read More</a> </div>
+                    	</div>
+                  	</div>
+                <!-- TemplateEndEditable --></div>
+              </div>
+            </section>
+
+            <!-- Right Image -->
+            <section class="right-image">
+              <div class="container-fluid">
+                <div class="row">
+					<!-- TemplateBeginEditable name="3_region" -->
+                  <div class="col-md-6">
+                    <div class="left-content">
+                      <h4>Ante Interdum Raclette</h4>
+                      <p>Lorem ipsum dolor amet raclette chambray bitters, hammock celiac slow-carb flexitarian four dollar toast food truck health goth. Air plant brunch food truck vegan scenester organic crucifix irony pour-over pop-up austin hexagon kitsch swag. Godard literally humblebrag cloud bread vice master cleanse chambray typewriter put a bird on it brooklyn forage.<br><br>Air plant brunch food truck vegan scenester organic crucifix irony pour-over pop-up austin hexagon kitsch swag. Godard literally humblebrag cloud bread vice master cleanse chambray typewriter put bird brooklyn</p>
+                      <div class="primary-button">
+                        <a href="#">Read More</a>
+                      </div>
+                    </div>
+                  </div>
+					<!-- TemplateEndEditable -->
+                  <div class="col-md-6">
+                    <img src="../parasoll_1/assets/images/right-image.jpg" alt="">
+                  </div>
+                </div>
+              </div>
+            </section>
+
+          </div>
+        </div>
+
+      <!-- Sidebar -->
+        <div id="sidebar">
+
+          <div class="inner">
+
+            <!-- Search Box -->
+            <section id="search" class="alt">
+              <form method="get" action="#">
+                <input type="text" name="search" id="search1" placeholder="Search..." />
+              </form>
+            </section>
+              
+            <!-- Menu -->
+            <nav id="menu">
+              <ul>
+                <li><a href="../parasoll_1/index.html">Startsida</a></li>
+                
+                <li><a href="../parasoll_1/shortcodes.html">Vad är ett personligt ombud</a></li>
+                <li>
+                  <span class="opener">Våra personliga ombud</span>
+                  <ul>
+                    <li><a href="#">Danderyd</a></li>
+                    <li><a href="#">Sollentuna</a></li>
+                    <li><a href="#">Solna Sundbyberg</a></li>
+					<li><a href="#">Upplands Väsby / Sigtuna</a></li>
+					<li><a href="#">Heby Knivsta</a></li>
+					<li><a href="#">Norrtälje</a></li>  
+                  </ul>
+                </li>
+				  <li><a href="../parasoll_1/simple_page.html">Länkar</a></li>
+                <li>
+                  <span class="opener">Om oss</span>
+                  <ul>
+                    <li><a href="#">Kontakta oss</a></li>
+                    <li><a href="#">Styrelse</a></li>
+                    <li><a href="#">Ideologi</a></li>
+					<li><a href="#">Brukardrift</a></li>
+					<li><a href="#">Så här tycker andra</a></li>
+					<li><a href="#">Jobba hos oss</a></li>
+                  </ul>
+                </li>
+                <li><a href="https://www.google.com">External Link</a></li>
+              </ul>
+            </nav>
+
+            <!-- Featured Posts -->
+            <div class="featured-posts">
+              <div class="heading">
+                <h2>Featured Posts</h2>
+              </div>
+              <div class="owl-carousel owl-theme">
+                <a href="#">
+                  <div class="featured-item">
+                    <img src="../parasoll_1/assets/images/featured_post_01.jpg" alt="featured one">
+                    <p>Aliquam egestas convallis eros sed gravida. Curabitur consequat sit.</p>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="featured-item">
+                    <img src="../parasoll_1/assets/images/featured_post_01.jpg" alt="featured two">
+                    <p>Donec a scelerisque massa. Aliquam non iaculis quam. Duis arcu turpis.</p>
+                  </div>
+                </a>
+                <a href="#">
+                  <div class="featured-item">
+                    <img src="../parasoll_1/assets/images/featured_post_01.jpg" alt="featured three">
+                    <p>Suspendisse ac convallis urna, vitae luctus ante. Donec sit amet.</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <!-- Footer -->
+            <footer id="footer">
+              <p class="copyright">Copyright &copy; 2022 Stiftelsen Parasoll
+              </p>
+            </footer>
+
+          </div>
+        </div>
+
+    </div>
+
+  <!-- Scripts -->
+  <!-- Bootstrap core JavaScript -->
+    <script src="../parasoll_1/vendor/jquery/jquery.min.js"></script>
+    <script src="../parasoll_1/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <script src="../parasoll_1/assets/js/browser.min.js"></script>
+    <script src="../parasoll_1/assets/js/breakpoints.min.js"></script>
+    <script src="../parasoll_1/assets/js/transition.js"></script>
+    <script src="../parasoll_1/assets/js/owl-carousel.js"></script>
+    <script src="../parasoll_1/assets/js/custom.js"></script>
+</body>
+
+
+  
+
+</html>

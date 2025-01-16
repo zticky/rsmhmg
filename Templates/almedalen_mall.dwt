@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>RSMH Mälardalen Gotland</title>
+	<!-- TemplateEndEditable -->
+	<meta name="viewport" content="width=device-width, initial-scale=1  maximum-scale=1 user-scalable=no">
+	<meta name="mobile-web-app-capable" content="yes">
+	<meta name="HandheldFriendly" content="True">
+	
+	<link rel="shortcut icon" href="../almedalen_2023/2023/img/favicon.png">
+	
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/font-awesome.min.css">
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/materialize.min.css">
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/slick.css">
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/slick-theme.css">
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/owl.carousel.css">
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/owl.theme.css">
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/owl.transitions.css">
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/lightbox.min.css">
+	<link rel="stylesheet" href="../almedalen_2023/2023/css/style.css">
+<!-- TemplateBeginEditable name="head" -->
+<!-- TemplateEndEditable -->
+</head>
+<body>
+
+	<!-- navbar -->
+	<div class="navbar">
+		<div class="container">
+			<div class="panel-control-left">
+				<a href="#" data-activates="slide-out-left" class="sidenav-control"><i class="fa fa-bars"></i></a>
+			</div>
+			<div class="site-title">
+				<a href="../almedalen_2023/2023/index.html" class="logo"><h1>RSMH MG</h1></a>
+			</div>
+			<div class="panel-control-right">
+				<a href="../almedalen_2023/2023/contact.html"><i class="fa fa-envelope"></i></a>
+			</div>
+		</div>
+	</div>
+	<!-- end navbar -->
+
+	<!-- panel control -->
+	<div class="panel-control-left">
+		<ul id="slide-out-left" class="side-nav collapsible"  data-collapsible="accordion">
+			<li>
+				<div class="photos">
+					<img src="../almedalen_2023/2023/img/photos.png" alt="">
+					<h3>RSMH <br>Kamratringen</h3>
+				</div>
+			</li>
+			<li class="first-list">
+				<a href="../almedalen_2023/2023/index.html"><i class="fa fa-home"></i>Home</a>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="fa fa-play"></i>Courses <span><i class="fa fa-chevron-right"></i></span></div>
+				<div class="collapsible-body">
+					<ul class="side-nav-panel">
+						<li><a href="../almedalen_2023/2023/courses.html">Courses Pages</a></li>
+						<li><a href="../almedalen_2023/2023/courses-single.html">Courses Single</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="fa fa-book"></i>Ebook <span><i class="fa fa-chevron-right"></i></span></div>
+				<div class="collapsible-body">
+					<ul class="side-nav-panel">
+						<li><a href="../almedalen_2023/2023/book.html">Ebook Pages</a></li>
+						<li><a href="../almedalen_2023/2023/book-single.html">Ebook Single</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="fa fa-shopping-bag"></i>Store <span><i class="fa fa-chevron-right"></i></span></div>
+				<div class="collapsible-body">
+					<ul class="side-nav-panel">
+						<li><a href="../almedalen_2023/2023/home-store.html">Home Store</a></li>
+						<li><a href="../almedalen_2023/2023/product-details.html">Product Details</a></li>
+						<li><a href="../almedalen_2023/2023/shopping-cart.html">Shopping Cart</a></li>
+						<li><a href="../almedalen_2023/2023/checkout.html">Checkout</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<div class="collapsible-header"><i class="fa fa-rss"></i>Blog <span><i class="fa fa-chevron-right"></i></span></div>
+				<div class="collapsible-body">
+					<ul class="side-nav-panel">
+						<li><a href="../almedalen_2023/2023/blog.html">Blog</a></li>
+						<li><a href="../almedalen_2023/2023/blog-single.html">Blog Single</a></li>
+					</ul>
+				</div>
+			</li>
+			<li>
+				<a href="../almedalen_2023/2023/faq.html"><i class="fa fa-question-circle"></i>Faq</a>
+			</li>
+			<li>
+				<a href="../almedalen_2023/2023/testimonial.html"><i class="fa fa-user"></i>Testimonial</a>
+			</li>
+			<li>
+				<a href="../almedalen_2023/2023/404.html"><i class="fa fa-times-circle-o"></i>404 Page</a>
+			</li>
+			<li>
+				<a href="../almedalen_2023/2023/contact.html"><i class="fa fa-envelope"></i>Contact Us</a>
+			</li>
+			<li>
+				<a href="../almedalen_2023/2023/login.html"><i class="fa fa-sign-in"></i>Login</a>
+			</li>
+			<li>
+				<a href="../almedalen_2023/2023/register.html"><i class="fa fa-user-plus"></i>Register</a>
+			</li>
+		</ul>
+	</div>
+	<!-- end panel control -->
+
+	<!-- courses single-->
+	<!-- TemplateBeginEditable name="EditRegion1" -->
+	<div class="courses-single app-pages">
+		<!--<div class="courses-iframe">
+			<iframe src="https://www.youtube.com/embed/kgZsCCCnHcs" frameborder="0" allowfullscreen></iframe>
+		</div> -->
+	  
+		<div class="container">
+		  <div class="entry">
+		    <h5>Fånga upp psykisk ohälsa i tid - hjälp till att förhindra suicid</h5>
+		    <div class="thumb"> <img src="../almedalen_2023/2023/img/testimonial1.png" alt=""> </div>
+		    <div class="desc">
+		      <h6><a href="">RSMH MG</a></h6>
+		      <!-- <span><i class="fa fa-calendar"></i> March 2, 2017 <i class="fa fa-eye"></i> 20K Views</span> -->
+	        </div>
+		    <div class="description">
+		      <h6>Tid och Plats</h6>
+	        </div>
+		    <p>B-huset, Uppsala universitet, Huvudentré Cramérgatan 3, "B51" </p>
+		    <div class="description">
+		      <h6>Arrangör</h6>
+	        </div>
+		    <p>1,6 och 2,6miljonerklubben, Fonden för psykisk hälsa </p>
+		    <div class="description">
+		      <h6>Beskrivning</h6>
+	        </div>
+		    <p>Fyra personer tar sitt liv varje dag. Var femte person i vårt land får någon gång diagnosen depression. Det har gått 200 år sedan fysiskt hälsa blev obligatoriskt på skolschemat. Det är hög tid att psykisk hälsa får en lika självklar plats.</p>
+		    <div class="description">
+		      <h6>Utökad beskrivning</h6>
+	        </div>
+		    <p>Ing-Marie Wieselgrens arbete måste fortsätta. Seminariet anordnas i samarbete med Fonden för psykisk hälsa. Ing-Marie Wieselgrens stiftelse presenterar sitt arbete.</p>
+		    <div class="description">
+		      <h6>Medverkande</h6>
+	        </div>
+		    <ul>
+		      <li>• Alexandra Charles, ordförande, 1,6 och 2,6miljonerklubben</li>
+		      <li>• Siri Helle, psykolog</li>
+		      <li>• Ullakarin Nyberg, psykiatriker</li>
+	        </ul>
+		    <p> <br>
+		      <br>
+	        </p>
+		    <div class="description">
+		      <h6>Hemsida</h6>
+		      <a href="http://www.1.6miljonerklubben.com">http://www.1.6miljonerklubben.com</a>
+		      <p></p>
+	        </div>
+		    <!--<div class="share">
+					<ul>
+						<li><h6>Share via :</h6></li>
+						<li><a href=""><i class="fa fa-facebook-square"></i></a></li>
+						<li><a href=""><i class="fa fa-twitter-square"></i></a></li>
+						<li><a href=""><i class="fa fa-google-plus-square"></i></a></li>
+						<li><a href=""><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div> -->
+		    <!-- <div class="author">
+					
+				</div>-->
+		    <!-- <div class="comment">
+					<h6>2 Comment</h6>
+					<div class="content">
+						<img src="img/comment1.png" alt="">
+						<div class="entry">
+							<strong><a href="">John Doe</a></strong>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+						</div>
+					</div>
+					<div class="content">
+						<img src="img/comment2.png" alt="">
+						<div class="entry">
+							<strong><a href="">John Doe</a></strong>
+							<p>Lorem ipsum dolor sit amet, consectetur adipisicing</p>
+						</div>
+					</div>
+				</div>-->
+		    <!-- <div class="post-comment">
+					<h6>Leave a Reply</h6>
+					<div class="content">
+						<form action="#">
+							<input type="text" placeholder="Name">
+							<input type="email" placeholder="Email">
+							<textarea cols="20" rows="10" placeholder="Comment"></textarea>
+							<button class="button">Post Comment</button>
+						</form>
+					</div>
+				</div> -->
+	      </div>
+	  </div>
+    <!-- TemplateEndEditable --> </div>
+	<!-- end courses single -->
+	
+	<!-- footer -->
+	<footer>
+		<div class="container">
+			<h6>Hitta oss</h6> <br>
+			<!-- <ul class="icon-social">
+				<li class="facebook"><a href=""><i class="fa fa-facebook"></i></a></li>
+				<li class="twitter"><a href=""><i class="fa fa-twitter"></i></a></li>
+				<li class="google"><a href=""><i class="fa fa-google"></i></a></li>
+				<li class="instagram"><a href=""><i class="fa fa-instagram"></i></a></li>
+				<li class="rss"><a href=""><i class="fa fa-rss"></i></a></li>
+			</ul> -->
+			<div class="tel-fax-mail">
+				<ul>
+					<li><span>Tel:</span> 08 644 62 20</li>
+					
+					<li><span></span> info@rsmhstockholm.com</li>
+					<li><span></span> info.kamratringen@rsmhstockholm.com</li>
+					
+				</ul>
+			</div>
+		</div>
+		<div class="ft-bottom">
+			<span>Copyright © 2023 All Rights Reserved </span>
+		</div>
+	</footer>
+	<!-- end footer -->
+	
+	<!-- script -->
+	<script src="../almedalen_2023/2023/js/jquery.min.js"></script>
+	<script src="../almedalen_2023/2023/js/materialize.min.js"></script>
+	<script src="../almedalen_2023/2023/js/slick.min.js"></script>
+	<script src="../almedalen_2023/2023/js/owl.carousel.min.js"></script>
+	<script src="../almedalen_2023/2023/js/custom.js"></script>
+
+</body>
+</html>

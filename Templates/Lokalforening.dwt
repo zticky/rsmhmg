@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!--
+	Interphase by TEMPLATED
+	templated.co @templatedco
+	Released for free under the Creative Commons Attribution 3.0 license (templated.co/license)
+-->
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<!-- TemplateBeginEditable name="doctitle" -->
+	<title>RSMH Mälardalen/Gotland</title>
+	<!-- TemplateEndEditable -->
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<meta name="description" content="" />
+	<meta name="keywords" content="" />
+	<!--[if lte IE 8]><script src="css/ie/html5shiv.js"></script><![endif]-->
+	<script src="../js/jquery.min.js"></script>
+	<script src="../js/skel.min.js"></script>
+	<script src="../js/skel-layers.min.js"></script>
+	<script src="../js/init.js"></script>
+	<noscript>
+	<link rel="stylesheet" href="../css/skel.css" />
+	<link rel="stylesheet" href="../css/style.css" />
+	<link rel="stylesheet" href="../css/style-xlarge.css" />
+	</noscript>
+	<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
+	<!-- TemplateParam name="Beskrivn_lokalfor" type="boolean" value="true" -->
+	<!-- TemplateBeginEditable name="head" -->
+	<!-- TemplateEndEditable -->
+	</head>
+	<body>
+
+		<!-- Header -->
+			<header id="header">
+				<h1><a href="../index.html">RSMH Mälardalen/Gotland</a></h1>
+				<nav id="nav">
+					<ul>
+						<li><a href="../index.html">Hem</a></li>
+						<li><a href="../lokalforeningar.html">Lokalföreningarna</a></li>
+						<li><a href="../intressepolitik.html">Intressepolitik</a></li>
+						<li><a href="../aktuellt.html">Aktuellt</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Main -->
+			<!-- TemplateBeginIf cond="_document['Beskrivn_lokalfor']" --><!-- TemplateBeginEditable name="EditRegion1" --><section id="main" class="wrapper">
+				<div class="container">
+
+					<header class="major">
+						<h2>Generic</h2>
+						<p>Lorem ipsum dolor sit amet nullam id egestas urna aliquam</p>
+					</header>
+
+					<a href="#" class="image fit"><img src="../images/pic08.jpg" alt="" /></a>
+					<p>Vis accumsan feugiat adipiscing nisl amet adipiscing accumsan blandit accumsan sapien blandit ac amet faucibus aliquet placerat commodo. Interdum ante aliquet commodo accumsan vis phasellus adipiscing. Ornare a in lacinia. Vestibulum accumsan ac metus massa tempor. Accumsan in lacinia ornare massa amet. Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan.</p>
+					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet Ac interdum ac non praesent. Cubilia lacinia interdum massa faucibus blandit nullam. Accumsan phasellus nunc integer. Accumsan euismod nunc adipiscing lacinia erat ut sit. Arcu amet. Id massa aliquet arcu accumsan lorem amet accumsan commodo odio cubilia ac eu interdum placerat placerat arcu commodo lobortis adipiscing semper ornare pellentesque.</p>
+					<p>Amet nibh adipiscing adipiscing. Commodo ante vis placerat interdum massa massa primis. Tempus condimentum tempus non ac varius cubilia adipiscing placerat lorem turpis at. Aliquet lorem porttitor interdum. Amet lacus. Aliquam lobortis faucibus blandit ac phasellus. In amet magna non interdum volutpat porttitor metus a ante ac neque. Nisi turpis. Commodo col. Interdum adipiscing mollis ut aliquam id ante adipiscing commodo integer arcu amet blandit adipiscing arcu ante.</p>
+
+				</div>
+			</section><!-- TemplateEndEditable --><!-- TemplateEndIf -->
+
+		<!-- Footer -->
+			<footer id="footer">
+				<div class="container">
+					<div class="row">
+						<section class="4u 6u(medium) 12u$(small)">
+							<h3>Informationsmaterial</h3>
+							<p>Informationsmaterial såsom stadgar, skrivelser etc</p>
+							<ul class="alt">
+								<li><a href="../news_dox/Stadgar_RSMH-2019.pdf">Stadgar</a></li>
+								<li><a href="remisser.html">Remisser och skrivelser</a></li>
+								<li><a href="../medlemsvarvning.html">Medlemsvärvning</a></li>
+
+							</ul>
+						</section>
+						<section class="4u 6u$(medium) 12u$(small)">
+							<h3>Länkar</h3>
+							<p>Länkar till andra org, föreningar, myndigheter </p>
+							<ul class="alt">
+								<li><a href="https://rsmh.se" target="new">RSMH riks</a></li>	
+								<li><a href="https://nsph.se">NSPH Riks</a></li>
+							</ul>
+						</section>
+						<section class="4u$ 12u$(medium) 12u$(small)">
+							<h3>Kontakta oss</h3>
+							<ul class="icons">
+								
+								<li><a href="https://www.facebook.com/RSMH-Stockholms-läns-distrikt-685187501576514/?fref=ts" target="new" class="icon rounded fa-facebook"><span class="label">Facebook</span></a></li>
+								
+							</ul>
+							<ul class="tabular">
+								<li>
+									<h3>Address</h3>
+									Bellmansgatan 30<br>
+									118 47, Stockholm
+								</li>
+								<li>
+									<h3>Mail</h3>
+									<a href="#">info@rsmhstockholm.se</a>
+								</li>
+								<li>
+									<h3>Telefon</h3>
+									08 644 62 20
+								</li>
+							</ul>
+						</section>
+					</div>
+					<ul class="copyright">
+						<li>&copy; 2021 RSMH Mälardalen Gotland. All rights reserved.</li>
+						
+						<!--<li>Images: <a href="http://unsplash.com">Unsplash</a></li> -->
+					</ul>
+				</div>
+			</footer>
+
+	</body>
+</html>

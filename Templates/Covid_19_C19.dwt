@@ -1,0 +1,737 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <!-- TemplateBeginEditable name="doctitle" -->
+    <title>RSMH MG Covid-19</title>
+    <!-- TemplateEndEditable -->
+    <!-- Bootstrap core CSS -->
+    <link href="../Corona_RSMH_MG_2022/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+
+    <!-- Additional CSS Files -->
+    <link rel="stylesheet" href="../Corona_RSMH_MG_2022/assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../Corona_RSMH_MG_2022/assets/css/templatemo-plot-listing.css">
+    <link rel="stylesheet" href="../Corona_RSMH_MG_2022/assets/css/animated.css">
+    <link rel="stylesheet" href="../Corona_RSMH_MG_2022/assets/css/owl.css">
+<!--
+
+TemplateMo 564 Plot Listing
+
+https://templatemo.com/tm-564-plot-listing
+
+-->
+  <!-- TemplateBeginEditable name="head" -->
+  <!-- TemplateEndEditable -->
+  </head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <!-- ***** Preloader End ***** -->
+
+  <!-- ***** Header Area Start ***** -->
+  <!-- TemplateBeginEditable name="Header" -->
+  <header class="header-area header-sticky wow slideInDown" data-wow-duration="0.75s" data-wow-delay="0s">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="../Corona_RSMH_MG_2022/index.html" class="logo"> </a>
+            <!-- ***** Logo End ***** -->
+            <!-- ***** Menu Start ***** -->
+            <ul class="nav">
+              <li><a href="../Corona_RSMH_MG_2022/index.html">Start</a></li>
+              <li><a href="../Corona_RSMH_MG_2022/stockholm.html" class="active">Stockholm</a></li>
+              <li><a href="../Corona_RSMH_MG_2022/gotland.html">Gotland</a></li>
+              <li><a href="../Corona_RSMH_MG_2022/sodermanland.html">södermanland</a></li>
+              <li>
+                <div class="main-white-button"><a href="#"><i class="fa fa-plus"></i> Add Your Listing</a></div>
+              </li>
+            </ul>
+            <a class='menu-trigger'> <span>Menu</span> </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="page-heading">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8">
+          <div class="top-text header-text">
+            <h6>RSMH Mälardalen Gotland</h6>
+            <h2>Stockholm</h2>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- TemplateEndEditable -->
+
+
+  <div class="category-post">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="naccs">
+            <div class="grid">
+              <div class="row">
+                <div class="col-lg-12">
+                  <div class="menu">
+                    <div class="first-thumb active">
+                      <div class="thumb">
+                        <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-01.png" alt=""><h4>Allmänt</h4></span>    
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-02.png" alt=""><h4>Symptom</h4></span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-03.png" alt=""><h4>Vaccination</h4></span>
+                      </div>
+                    </div>
+                    <div>
+                      <div class="thumb">                 
+                        <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-04.png" alt=""><h4>Intyg &amp pass</h4></span>
+                      </div>
+                    </div>
+                    <div class="last-thumb">
+                      <div class="thumb">                 
+                        <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-05.png" alt=""><h4>Övrigt</h4></span>
+                      </div>
+                    </div>
+                  </div>
+                </div> 
+                <div class="col-lg-12">
+                  <ul class="nacc">
+                    <li class="active">
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="top-content">
+                                <div class="row">
+                                  <div class="col-lg-6">
+                                    <div class="top-icon">
+                                      <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-01.png" alt=""><h4>Allmänt</h4></span> 
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                    <div class="main-white-button">
+                                      <a href="#"><i class="fa fa-plus"></i> Check Our Listings</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>      
+                            </div>
+                            <!-- TemplateBeginEditable name="Allm_1" -->
+                            <div class="col-lg-12">
+                              <div class="description">
+                                <div class="row">
+                                  <div class="col-lg-9">
+                                    <h4>Allmänt om Covid-19</h4>
+                                    <p>Covid-19 (akronym för engelskans coronavirus disease 2019, det vill säga "coronavirussjukdom 2019") är en luftvägsinfektion orsakad av viruset sars-cov-2, som tillhör gruppen coronavirus. Sjukdomen påvisades första gången under coronavirusutbrottet i Wuhan i Kina i december 2019. Den snabba, globala spridningen ledde till covid-19-pandemin. <br>
+                                      <br>
+                                      Covid-19 är en infektionssjukdom som orsakas av viruset sars-cov-2 som tillhör virusgruppen coronavirus. Sars-cov-2 tillhör samma taxonomiska familj som MERS-CoV och SARS-CoV, som orsakar sjukdomarna mers respektive sars. Flera andra virus som tillhör gruppen coronavirus är relativt harmlösa och ger vanliga förkylningar. <br>
+                                      <br>
+                                      Covid-19 smittar mellan människor. Smittan sker huvudsakligen genom så kallad droppsmitta, vilket innebär att virus överförs via droppar från luftvägarna när en infekterad person nyser, hostar, talar eller andas. Små droppar med viruset smittar genom att de andas in eller kommer i kontakt med ögon, näsa eller mun. Sars-cov-2 kan också spridas genom kontaktsmitta, till exempel genom kontakt med kontaminerade ytor. <br>
+                                      <br>
+                                      Det råder ingen vetenskaplig konsensus om huruvida viruset som orsakar covid-19 också kan spridas genom så kallad luftburen smitta, där viruspartiklar kan färdas långa sträckor genom luften, även om en hel del omständigheter pekar på att detta är möjligt. Vissa forskare hävdar att fenomenet superspridning, dvs. då en eller ett fåtal smittade personer kan sprida smittan till ett stort antal andra vid ett och samma tillfälle, enbart kan förstås om man också accepterar att viruset kan spridas luftburet. <br>
+                                      <br>
+                                      Det förekommer även att personer utan symptom smittar andra personer. En del av dessa får symptom senare medan andra aldrig får några symptom. Det är okänt i vilken utsträckning helt asymptomatiska personer bidrar till smittspridningen. Personer som får symptom tros vara mest smittsamma omkring två dagar innan de får symptom, men kan vara smittsamma en längre period. </p>
+                                  </div>
+                                  <div class="col-lg-3">
+                                    <div class="text-icon">
+                                      <h4><img src="../Corona_RSMH_MG_2022/assets/images/listing-icon-heading.png" alt=""> Total Listings</h4>
+                                    </div>
+                                    <span class="list-item">This Week: 200 Listings &amp; 150 Sales<br>
+                                      This Month: 1,800 Listings &amp; 1,560 Sales<br>
+                                      This Year: 16,000 Listings &amp; 14,000 Sales</span> </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- TemplateEndEditable -->                            <!--  <div class="col-lg-12">
+                              <div class="general-info">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <h4>Allmänt om Covid-19</h4>
+                                    <p>Covid-19 (akronym för engelskans coronavirus disease 2019, det vill säga "coronavirussjukdom 2019") är en luftvägsinfektion orsakad av viruset sars-cov-2, som tillhör gruppen coronavirus. Sjukdomen påvisades första gången under coronavirusutbrottet i Wuhan i Kina i december 2019. Den snabba, globala spridningen ledde till covid-19-pandemin. <br>
+									  
+									  Covid-19 är en infektionssjukdom som orsakas av viruset sars-cov-2 som tillhör virusgruppen coronavirus. Sars-cov-2 tillhör samma taxonomiska familj som MERS-CoV och SARS-CoV, som orsakar sjukdomarna mers respektive sars. Flera andra virus som tillhör gruppen coronavirus är relativt harmlösa och ger vanliga förkylningar.
+									  
+										Covid-19 smittar mellan människor. Smittan sker huvudsakligen genom så kallad droppsmitta, vilket innebär att virus överförs via droppar från luftvägarna när en infekterad person nyser, hostar, talar eller andas. Små droppar med viruset smittar genom att de andas in eller kommer i kontakt med ögon, näsa eller mun. Sars-cov-2 kan också spridas genom kontaktsmitta, till exempel genom kontakt med kontaminerade ytor. <br><br>
+
+Det råder ingen vetenskaplig konsensus om huruvida viruset som orsakar covid-19 också kan spridas genom så kallad luftburen smitta, där viruspartiklar kan färdas långa sträckor genom luften, även om en hel del omständigheter pekar på att detta är möjligt. Vissa forskare hävdar att fenomenet superspridning, dvs. då en eller ett fåtal smittade personer kan sprida smittan till ett stort antal andra vid ett och samma tillfälle, enbart kan förstås om man också accepterar att viruset kan spridas luftburet.
+<br><br>
+Det förekommer även att personer utan symptom smittar andra personer. En del av dessa får symptom senare medan andra aldrig får några symptom. Det är okänt i vilken utsträckning helt asymptomatiska personer bidrar till smittspridningen. Personer som får symptom tros vara mest smittsamma omkring två dagar innan de får symptom, men kan vara smittsamma en längre period.									  
+									  
+									  
+									  
+									  </p>
+                                    <span class="list-item">* Listing should have all the proper documents before being checked in.
+                                    <br>** Listing will be checked by our team members.
+                                    <br>*** After being sold, it should imediately be removed from our site and properly monitored.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </li>                 
+                    <!-- TemplateBeginEditable name="Symptom_1" -->
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="top-content">
+                                <div class="row">
+                                  <div class="col-lg-6">
+                                    <div class="top-icon"> <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-02.png" alt="">
+                                      <h4>Symptom</h4>
+                                    </span> </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                    <div class="main-white-button"> <a href="#"><i class="fa fa-plus"></i> Check Our Listings</a> </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="description">
+                                <div class="row">
+                                  <div class="col-lg-9">
+                                    <h4>Symptom</h4>
+                                    <p>Det har uppskattats att minst en femtedel av de smittade inte får några symptom. Bland dem som får symptom får 80 % milda symptom och återhämtar sig utan sjukhusvård, 15 % får allvarliga symptom som kan behöva sjukhusvård och syrgastillförsel, och 5 % blir kritiskt sjuka och behöver intensivvård. <br>
+                                      <br>
+                                      De vanligaste symptomen är feber, torrhosta och trötthet. Andra vanliga symptom är: nedsatt lukt- eller smaksinne, nästäppa, konjunktivit (röda ögon), halsont, huvudvärk, muskel- och ledvärk, hudutslag, illamående eller kräkningar, diarré, frossa och yrsel. <br>
+                                      <br>
+                                      Inkubationstiden, tiden från då smitta sker till dess att man uppvisar symptom, är vanligen omkring 5 dagar, men kan sträcka sig från två till 14 dagar. <br>
+                                      <br>
+                                      Hos en del personer kan vissa symptom kvarstå. Enligt en sammanställning av vetenskapliga artiklar som gjordes av SBU i december 2020 har ett antal långvariga symptom beskrivits. Symptom räknades som långvariga när de hade kvarstått minst 6 veckor. Långvariga symptom som studiedeltagarna främst hade upplevt var trötthet, andfåddhet, hosta, hjärtklappning och försämrat luktsinne. Även bröstsmärtor, muskel- och ledvärk, viktnedgång, mag-tarmbesvär, hudförändringar, en försämrad livskvalitet samt en allmänt försämrad fysisk och psykisk hälsa redovisades. Kliniska mått som hade rapporterats i studierna var försämrad lungfunktion och förändringar i lungor, hjärt- och kärlpåverkan som hjärtmuskelinflammation, förändringar i hjärnan samt försämrat lukt- och smaksinne. Eftersom sjukdomen var ny kunde det inte uteslutas att det förekommer andra långvariga symptom som ännu inte hade rapporterats i vetenskapliga artiklar. Förekomsten av ett och samma symptom varierade mellan olika studier, bland annat beroende på hur de olika symptomen hade mätts och om studierna avsåg patienter i öppen eller sluten vård.</p>
+                                    <p>Covid-19 påminner ofta om vanlig förkylning eller influensa. <br>
+                                      En del blir allvarligt sjuka, men de flesta som får sjukdomen blir lindrigt sjuka. <br>
+                                      <br>
+                                      <strong>Sammanfattning:</strong> <br>
+                                      Här är några vanliga symtom. Du kan ha ett eller flera av symtomen: <br>
+                                      <strong>• hosta <br>
+                                        • feber<br>
+                                        • snuva eller täppt näsa<br>
+                                        • förändrad lukt och smak<br>
+                                        • ont i halsen<br>
+                                        • ont i huvudet<br>
+                                        • illamående<br>
+                                        • ont i musklerna<br>
+                                        • ont i magen<br>
+                                        • diarré<br>
+                                        • trötthet<br>
+                                        <br>
+                                      </strong> Symtomen kommer oftast efter tre till fem dagar om du har blivit smittad. <br>
+                                      Ibland kan det dröja upp till 14 dagar.<br>
+                                      <br>
+                                      Infektionen kan gå över efter några dagar. Ibland tar det längre tid.<br>
+                                      <br>
+                                      <strong>Lämna prov för covid-19</strong> <br>
+                                      Lämna prov om du har symtom och inte har haft covid-19 de senaste sex månaderna. Läs mer om när du behöver lämna prov för covid-19.<br>
+                                      <br>
+                                      <strong>En del kan bli sjukare efter någon vecka</strong> <br>
+                                      För en del personer blir sjukdomen allvarligare någon vecka efter de första symtomen. Då kan du få jobbigt att andas, bli andfådd eller känna dig svag eller förvirrad.<br>
+                                      <br>
+                                      <strong>När och var ska jag söka vård?</strong><br>
+                                      De allra flesta som blir sjuka behöver inte söka vård eftersom besvären brukar gå över av sig själv. <br>
+                                      <br>
+                                      <strong>Kontakta en vårdcentral om du har ett eller flera av följande besvär:</strong> <br>
+                                      • Du har hög feber i mer än fyra dygn. <br>
+                                      • Du blir andfådd när du rör dig. <br>
+                                      • Du är så orkeslös att du har svårt att vara uppe. <br>
+                                      • Ring telefonnummer 1177 om du behöver sjukvårdsrådgivning. Då får du hjälp att bedöma symtom eller hjälp med var du kan söka vård. <br>
+                                      <br>
+                                      <strong>Om det är bråttom </strong><br>
+                                      Kontakta genast en vårdcentral eller en jouröppen mottagning om du har ett eller flera av följande besvär: <br>
+                                      <br>
+                                      <strong>Du blir plötsligt mycket sämre.</strong> <br>
+                                      Du får andningsbesvär även när du vilar. <br>
+                                      Om det är stängt på vårdcentralen eller den jouröppna mottagningen, sök vård på en akutmottagning. <br>
+                                      <br>
+                                      <strong>Ring alltid först</strong> <br>
+                                      Om du behöver söka vård, är det viktigt att ringa först och inte åka direkt till en mottagning. Det är för att undvika att smitta andra på mottagningen om du har covid-19. När du ringer får du instruktioner om hur du ska göra. <br>
+                                      <br>
+                                    </p>
+                                  </div>
+                                  <div class="col-lg-3">
+                                    <div class="text-icon">
+                                      <h4><img src="../Corona_RSMH_MG_2022/assets/images/listing-icon-heading.png" alt=""> Total Listings</h4>
+                                    </div>
+                                    <span class="list-item">This Week: 124 Listings &amp; 84 Sales<br>
+                                      This Month: 1,040 Listings &amp; 720 Sales<br>
+                                      This Year: 10,640 Listings &amp; 9,600 Sales</span> </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- <div class="col-lg-12">
+                              <div class="general-info">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <h4>General Info</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ak incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravidat doerski. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                                    <span class="list-item">* Listing should have all the proper documents before being checked in.
+                                    <br>** Listing will be checked by our team members.
+                                    <br>*** After being sold, it should imediately be removed from our site and properly monitored.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    
+				    <li>
+                     <div>
+                      <div class="thumb">
+                        <div class="row">
+                          <div class="col-lg-12">
+                            <div class="top-content">
+                              <div class="row">
+                                <div class="col-lg-6">
+                                  <div class="top-icon">
+                                    <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-03.png" alt=""><h4>Vaccination</h4></span> 
+                                  </div>
+                                </div>
+                                <div class="col-lg-6">
+                                  <div class="main-white-button">
+                                    <a href="#"><i class="fa fa-plus"></i> Check Our Listings</a>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>      
+                          </div>
+                          <div class="col-lg-12">
+                            <div class="description">
+                              <div class="row">
+                                <div class="col-lg-9">
+                                  <h4>Vaccination i Region Stockholm</h4>
+								    <p><strong>Material hämtat från hemsida Region Stockholm bland annat</strong></p> <br><br>
+                                  <p>	
+<strong>Ökad vaccinationskapacitet 
+<br>
+2021-12-08
+</strong>
+Nu ökar Region Stockholm vaccinationskapaciteten och öppnar redan i nästa vecka Stockholmsmässan i Älvsjö för vaccination mot covid-19. Ett intensivt förberedelsearbete pågår nu för att så snabbt som möjligt kunna iordningsställa lokalerna. Vaccinationsbokningen kommer att ske via appen Alltid Öppet eller genom telefonbokningen. <br> <br> Genom att öppna en större mottagning kan vi bättre möta upp det behov som nu finns. Vi ser också en fortsatt hög efterfrågan i och med att alla vuxna kommer att erbjudas en påfyllnadsdos enligt lagd prioriteringsordning, säger Magnus Thyberg, vaccinationssamordnare Region Stockholm. <br><br>
+
+<strong>Kraftigt ökad efterfrågan på covid-19 test
+<br>
+2021-12-02
+</strong> <br>
+Föregående vecka har det analyserats 53 353 tester för pågående covid-19 vilket är drygt dubbelt så många som veckan dessförinnan. Den snabba ökningen har gjort att vissa provtagningsmöjligheter inte finns tillgängliga under vissa tider. Nu arbetar Region Stockholm intensivt med att utöka kapaciteten och hitta fler lösningar till exempel med lådor där invånare kan hämta och lämna tester själva och fler apotek där ombud för den som ska provtas kan hämta och lämna provet. <br>
+Det är främst hemtesterna som har en begränsad kapacitet. Det går fortfarande att beställa covid-19 test i Region Stockholm med alternativen utlämning av test-kit på apotek, provtagning vid drive-in-station eller besök vid en provtagningsbuss med drop-in-provtagning. <br><br>
+
+- Det är fortfarande lika viktigt att vi testar oss vid symtom som håller i sig mer än 24 timmar. Därför ombeds nu invånarna att vid hög efterfrågan på hemtest, beställa ett covid-19-test på annat sätt, säger chefläkare Elda Sparrelid. <br><br>
+
+Alla som rest utanför Norden eller ingår i smittspårningar ska fortsätta att testa sig, oavsett om de är vaccinerade eller inte.<br><br>
+
+<strong>Vi ökar takten för att utöka vaccinationskapaciteten
+<br>
+2021-12-01
+</strong> <br>
+Mellan vecka 44 och vecka 47 har antalet vaccinationer ökat med drygt 160 procent. Från drygt 29 000 vaccinationer till de över 77 000 vaccinationer som utfördes under förra veckan. Nu fortsätter vi att stimulera ökad kapacitet hos nuvarande vaccinatörer, vi ökar antalet mobila vaccinationsenheter, vi öppnar upp för fler aktörer inom vårdval vaccination att vaccinera och vi ser över möjliga större vaccinationsanläggningar som blir klara i närtid. <br>När Folkhälsomyndigheten öppnade upp för påfyllnadsdos för alla som är 65 år och äldre samt minskade kravet på tiden mellan dos 2 och påfyllnadsdosen från sex till fem månader ökade vaccinationsbehovet kraftigt på mycket kort tid.
+<br><br>
+- Vi har lyckats öka kapaciteten hos våra befintliga aktörer så mycket att vi idag har cirka 17 000 lediga tider att boka hos någon av våra vaccinatörer. Men det är inte alltid att det finns både en tid och plats som passar alla. Därför ökar vi kapaciteten eftersom vi nu vet att alla över 18 ska förr eller senare erbjudas en påfyllnadsdos, säger vaccinationssamordnare Magnus Thyberg.
+<br><br>
+Bland annat ökas nu de mobila vaccinationsenheterna från 11 idag till 15 inom den närmaste veckan. Det är för att det ska finnas flexibilitet och att kunna möta behovet av vaccination där människor finns.
+<br><br>
+Dessutom öppnar Region Stockholm nu upp för fler aktörer att vaccinera inom ramen för vårdval vaccination.
+<br><br>
+- Jag räknar med en mycket snabb godkännandeprocess för de aktörer som vill vaccinera inom ramen för Vårdval vaccination. Det här hoppas vi ska öka kapaciteten ytterligare, säger Magnus Thyberg.
+<br><br>
+Utöver detta ser nu Region Stockholm över möjligheten att öppna vaccinationsmottagningar av det större formatet igen.
+<br><br>
+- Vi ser över olika alternativ och räknar med att ge besked om var detta blir i närtid, säger Magnus Thyberg.
+<br><br>
+Det utökade kapaciteten gör att Region Stockholm nu förbereder att släppa på nästa grupp för att erbjudas påfyllnadsdosen.
+<br><br>
+- Eftersom det ska ha gått sex månader för personer under 65 år mellan dos 2 och påfyllnadsdos kommer ordningen i stort likna den som vi hade i våras. Vi kommer att berätta så snart det blir dags att boka tid för nästa prioriteringsgrupp, säger Magnus Thyberg.<br> <br>
+
+<strong>Region Stockholm ger tredje dos i samma åldersordning som tidigare
+<br>
+2021-11-24
+</strong> <br>
+Räkna med samma åldersgrupper som under våren, med bokning på samma sätt. Det är beskedet från vaccinationssamordnare Magnus Thyberg när informationen om en tredje dos till fler grupper nu kommit från Folkhälsomyndigheten. Den som bor eller vistas i Stockholms län kommer att kunna boka sin tredje dos i åldersordning, på liknande sätt som under vårens stora vaccinationsinsats. <br> <br>
+- Du som har bokat i appen Alltid öppet kan räkna med att få ett SMS när det är dags för dig att boka din tredje dos. Du behöver alltså inte själv hålla koll på när det blir din tur. Vår uppmaning till dig är att boka in dig direkt när du får SMS:et och ta tredje dosen när du blir kontaktad av oss, säger Magnus Thyberg. <br><br>
+	
+- Den mest prioriterade gruppen just nu är personer födda 1956 eller tidigare. När vi har nått en god vaccinationstäckning för dos tre i denna stora grupp, kommer vi successivt att kunna släppa på andra grupper. <br><br>
+
+- Det ska gå minst sex månader mellan dos 2 och dos 3, men det är också viktigt att komma ihåg att skyddet inte upphör tvärt efter en viss tid utan att det vanligtvis minskar successivt. Den tredje dosen förstärker skyddet som du får från de första två doserna. Därför är det bra att ta sin påfyllnadsdos av skydd mot covid-19 när den möjligheten erbjuds, fortsätter Magnus Thyberg, vaccinationssamordnare i Region Stockholm. <br><br>
+
+En tredje dos vaccin mot covid-19 ger ett förstärkt och förlängt skydd mot svår sjukdom eller död. Genom att fylla på vårt vaccinskydd bidrar vi alla till att minska risken att smittan får ordentligt fäste i samhället igen. Nu behöver vården också fortsätta att återhämta sig och ge annan vård till människor som fått stå åt sidan under pandemins värsta faser. <br><br>
+
+Vaccinationen med tredje dosen pågår för fullt, samtidigt som vi fortsätter att erbjuda dos 1 och 2 till de grupper som ännu inte vaccinerat sig.<br> <br>
+
+<strong>Stor efterfrågan på vaccin mot covid-19
+<br>
+2021-11-23
+</strong> <br>
+Just nu är det många som vill vaccinera sig i Region Stockholm vilket innebär att det kan bli väntetider vid drop- in och tillfälligt svårare att hitta en ledig tid för tidsbokad vaccinering. <br><br>
+
+<strong>Dosintervall förkortat för personer som är 65 år eller äldre
+<br>
+2021-11-10
+</strong> <br>
+Nu rekommenderas ett tidsintervall om minst fem månader mellan andra dosen och påfyllnadsdos (tredje dosen) för personer födda 1956 eller tidigare. För personal inom SÄBO, hemtjänst och hemsjukvård kvarstår dosintervall på sex månader. <br><br>
+
+<strong>Påfyllnadsdos klar för boende vid SÄBO
+<br>
+2021-11-05
+</strong> <br>
+Nu har alla äldre som tackat ja till vaccin och som bor på särskilt boende för äldre (SÄBO) i Region Stockholm fått sin påfyllnadsdos av covidvaccin. Totalt rör det sig om 13 000 personer. <br><br>
+
+ 
+<strong>Bokningen öppen för åldersgrupp 65 och äldre som vill ta en tredje dos
+<br>
+2021-10-27
+</strong> <br>
+Folkhälsomyndigheten har idag beslutat att rekommendera att personer födda 1956 eller tidigare erbjuds en tredje dos vaccin mot covid-19. Bokningen i Region Stockholm är redan öppen. Det ska ha gått minst 6 månader från den andra dosen innan man kan erbjudas en tredje dos. Med en tredje dos vaccin förstärks och förlängs skyddet mot covid-19. <br><br>
+
+ 
+<strong>Nu får länets 80-plussare brev om tredje dosen vaccin
+<br>
+2021-10-26
+</strong> <br>
+Personer som är 80 år eller äldre erbjuds en tredje dos vaccin mot covid-19, efter rekommendation från Folkhälsomyndigheten. <br><br>
+
+<strong>Region Stockholm påbörjar vaccineringen i skolorna för 12-15 åringar
+<br>
+2021-10-08
+</strong> <br>
+I nästa vecka inleds vaccineringen mot covid-19 för barn som fyllt 12 år -15 år (födda 2006) i skolor som ligger i områden med lägre vaccinationstäckning. Vaccinationsinsatsen sker i nära samarbete mellan Region Stockholm, skolor, elevhälsan, vaccinatörer och samordnas av Länsstyrelsen. Eleverna kommer att erbjudas vaccination på skoltid efter vårdnadshavares samtycke.</p>
+                                </div>
+                                <div class="col-lg-3">
+                                  <div class="text-icon">
+                                    <h4><img src="../Corona_RSMH_MG_2022/assets/images/listing-icon-heading.png" alt=""> Total Listings</h4>
+                                  </div>
+                                  <span class="list-item">This Week: 800 Listings &amp; 400 Sales<br>This Month: 1,600 Listings &amp; 1,200 Sales<br>This Year: 14,000 Listings &amp; 12,000 Sales</span>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!-- <div class="col-lg-12">
+                              <div class="general-info">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <h4>General Info. about cars</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ak incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravidat doerski. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                                    <span class="list-item">* Listing should have all the proper documents before being checked in.
+                                    <br>** Listing will be checked by our team members.
+                                    <br>*** After being sold, it should imediately be removed from our site and properly monitored.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> -->
+                        </div>
+                      </div>
+                    </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="top-content">
+                                <div class="row">
+                                  <div class="col-lg-6">
+                                    <div class="top-icon">
+                                      <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-04.png" alt=""><h4>Intyg &amp pass</h4></span> 
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                    <div class="main-white-button">
+                                      <a href="#"><i class="fa fa-plus"></i> Check Our Listings</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>      
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="description">
+                                <div class="row">
+                                  <div class="col-lg-9">
+                                    <h4>Intyg Covidbevis</h4>
+                                    <p><strong>Covidbevis ska underlätta vid resor och evenemang </strong><br> <br>
+						
+						<strong>Är du vaccinerad</strong> <br>kan du få ett vaccinationsbevis <br> <br>
+						<strong>Är du inte vaccinerad</strong><br> är det möjligt att göra ett test för covid-19. <br>Om testet är negativt kan du få ett testbevis. <br><br>
+						<strong>För dig som har varit sjuk i covid-19</strong><br> är det i särskilda fall möjligt att skaffa ett tillfrisknandebevis. <br><br>
+						För de flesta personer är det enklare och snabbare att få ett vaccinationsbevis eller ett testbevis (efter negativt test för covid-19) i stället för ett tillfrisknandebevis, eftersom tillfrisknandebeviset kräver att du uppfyller specifika villkor.	<br><br>
+						
+						Covidbeviset visar att du har fått vaccin mot covid-19, att du har testat negativt för eller har tillfrisknat från covid-19. <br>
+						I tjänsten Covidbevis.se kan du få ett vaccinationsbevis. Du kan även få ett testbevis eller ett tillfrisknandebevis. Du hittar information om de tre olika bevisen nedan. <br><br>	
+										
+										
+										
+						<h3>Om du är vaccinerad och vill ha ett VACCINATIONSBEVIS</h3>
+									  
+						<p>
+						Om du är vaccinerad mot covid-19 kan du få ett vaccinationsbevis. Här är de olika stegen innan du kan ha ditt digitala bevis i din mobil, dator eller surfplatta.</p>
+									  
+						<p>Om du INTE har möjlighet till en digital lösning kan du få ett vaccinationstintyg i fysisk form, dvs på papper. </p>			  
+					<p>
+					Så här gör du för att få ett vaccinationsintyg i fysisk form (på papper) <br>				  
+					</p><br><br>
+					   <h3>Så här gör du för en fysisk lösning</h3>
+						<strong>1. </strong>Vaccinera dig. Inom sju dagar rapporteras vaccinationen in till Nationella vaccinationsregistret. <br><br>
+					
+					
+					<strong>2. </strong>
+					    <a href="../Corona_RSMH_MG_2022/Dox/bestallning-av-vaccinationsbevis.pdf" target="new">Öppna denna länk för att få ut en ansökan om ett vaccinationsbevis. Detta skall skrivas ut och skickas in till eHälsomyndigheten i Kalmar. Även om handläggningstiden sägs vara 7 dagar är den för närvarande betydligt längre, så ha framförhållning. Läs instruktionerna, printa ut och skicka in. Adressen står i länken</a> <br><br><br>
+					<p>
+					  
+					  <h3>Så här gör du för en digital lösning</h3>
+						
+						<strong>1. </strong>Vaccinera dig. Inom sju dagar rapporteras vaccinationen in till Nationella vaccinationsregistret. <br><br>
+					
+					
+					<strong>2. </strong>Logga in med e-legitimation på www.covidbevis.se <br><br>
+					
+					<strong>3. </strong>Hämta, skriv ut eller spara ditt vaccinationsbevis. När du har hämtat beviset skickas det även automatiskt till din digitala brevlåda, om du har en.  <br><br>
+					
+					<strong>4. </strong>Redo att användas. Kom ihåg att undersöka vilka regler som gäller för ditt resmål. <br><br>
+								  
+						</p>			  
+							</p>
+						<h3>Om  INTE är vaccinerad och vill ha ett TESTBEVIS</h3>			  
+					  <p>Om du inte är vaccinerad mot covid-19 men behöver ett covidbevis på negativt covid-19-test kan du testa dig för covid-19. Om du testar negativt kan du få ett testbevis som du kan använda vid resor. <br><br>
+					  Tänk på att äldre test för covid-19 eller test som du tar själv inte är giltiga. Det måste vara test som tas av behörig hälso- och sjukvårdspersonal eller annan kvalificerad testpersonal. Personalen måste fysiskt utföra provet på dig. Testresultatet är bara giltigt i några få dagar – undersök hur länge ett negativt test är giltigt på just ditt resmål.</p>
+					</header>
+
+					
+					<p> <h3>Så här går det till</h3>
+					
+					Ta reda på vilka regler som gäller för landet du planerar att resa till. <br><br>
+					Besök en vårdgivare som är ansluten till tjänsten Covidbevis. <br>Du hittar en lista över vilka vårdgivare som har anslutit sig längre ner på denna sida. <br><br>
+					Vid besöket säger du till personalen att du vill ha ett testbevis, alltså ett covidbevis på ett negativt covid-19-test. <br><br> 
+					Provet tas av utbildad personal. <br><br> 
+					Provet analyseras. <br><br> 
+					Om provresultatet är negativt skickas provresultatet till E-hälsomyndigheten. <br><br> 
+					E-hälsomyndigheten skapar automatiskt ett testbevis. <br><br> 
+					Om du har en digital brevlåda skickas ditt testbevis dit. <br><br> 
+					Om du inte har en digital brevlåda kommer vårdgivaren ge dig ditt testbevis, antingen på papper eller genom en digital lösning. <br>
+					Fråga din vårdgivare, om du är osäker på hur du kan få ditt testbevis. <br><br></p>
+							  
+							  
+					<p><h3>Om du har haft Covid-19 och vill ha ett<br>TILLFRISKNANDEBEVIS</h3>
+						<p>Tillfrisknandebevis är ett bevis på att du varit sjuk i covid-19 men har tillfrisknat. Detta kan endast utfärdats om du har testats av hälso- och sjukvårdspersonal eller annan behörig testpersonal. <br>Egenprovtagning och självtester gäller inte för tillfrisknandebevis, enligt EU-förordningen. <br>Personalen måste fysiskt utföra provet på dig. <br>
+					  </p>
+					<br><br>
+
+					
+					<p><h3>Hur länge är ett tillfrisknandebevis giltigt?</h3>
+					<strong>Hur länge är ett tillfrisknandebevis giltigt?</strong><br><br>
+						För att det ska vara möjligt behöver flera saker stämma in på dig: <br>
+						Du måste ha testat positivt för covid-19. <br>
+						Provtagningen måste vara utförd av utbildad sjukvårdspersonal i Sverige. Personalen måste fysiskt utföra provet på dig. Testet måste vara ett så kallat NAAT-test (PCR eller liknande). Egenprovtagning och självtest gäller inte. Observera också att antikroppstest inte heller är giltiga enligt EU-förordningen. Du behöver kontakta vården, via 1177.se (välj sedan din region), och undersöka vad som gäller i din region. <br>
+						Det måste ha gått minst 11 dagar sedan ditt första positiva testresultat. <br>
+						Beviset får vara högst 180 dagar gammalt från dagen för det första positiva testresultatet. Giltighetstiden är alltså högst sex månader från testresultatet. <br> <br>
+						
+						Du måste ha fyllt 16 år och ha svenskt personnummer och en folkbokföringsadress i Sverige. För barn under 16 år gäller att vårdnadshavare ska begära och få tillfrisknandebeviset för barnets räkning. <br> <br>
+						Om du uppfyller villkoren kan du besöka webbplatsen 1177.se för att se vad som gäller i din region för att begära ett tillfrisknandebevis. <br> <br>
+						
+						
+<h3>Så här gör du för att få ett tillfrisknandebevis</h3>
+					Du har varit sjuk i covid-19. Du har genom ett NAAT-test testat positivt för covid-19 av utbildad sjukvårdspersonal (ej egenprovtagning eller självtest) i Sverige. <br>
+					
+					Efter att du tillfrisknat, och minst 11 dagar efter att du testades positivt, kan du begära ut ett tillfrisknandebevis från vårdgivaren. Du kontaktar vården via 1177.se och väljer din regionala sida för att veta vad som gäller i just din region. <br> 
+					Vårdgivaren skickar en begäran till E-hälsomyndigheten som skapar ett tillfrisknandebevis. <br> <br>
+					
+					Om du har en digital brevlåda (Digimail, E-boks, Kivra eller Min myndighetspost) skickas ditt tillfrisknandebevis dit. <br> <br>
+					
+					Om du inte har en digital brevlåda postas ditt tillfrisknandebevis till din folkbokföringsadress. <br> <br></p>
+                                  </div>
+                                  <div class="col-lg-3">
+                                    <div class="text-icon">
+                                      <h4><img src="../Corona_RSMH_MG_2022/assets/images/listing-icon-heading.png" alt=""> Total Listings</h4>
+                                    </div>
+                                    <span class="list-item">This Week: 150 Listings &amp; 140 Sales<br>This Month: 1,500 Listings &amp; 1,100 Sales<br>This Year: 15,000 Listings &amp; 14,000 Sales</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!-- <div class="col-lg-12">
+                              <div class="general-info">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <h4>General Info. for Shopping</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ak incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravidat doerski. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                                    <span class="list-item">* Listing should have all the proper documents before being checked in.
+                                    <br>** Listing will be checked by our team members.
+                                    <br>*** After being sold, it should imediately be removed from our site and properly monitored.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div> -->
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <div>
+                        <div class="thumb">
+                          <div class="row">
+                            <div class="col-lg-12">
+                              <div class="top-content">
+                                <div class="row">
+                                  <div class="col-lg-6">
+                                    <div class="top-icon">
+                                      <span class="icon"><img src="../Corona_RSMH_MG_2022/assets/images/search-icon-05.png" alt=""><h4>Kontakter</h4></span> 
+                                    </div>
+                                  </div>
+                                  <div class="col-lg-6">
+                                    <div class="main-white-button">
+                                      <a href="#"><i class="fa fa-plus"></i> Check Our Listings</a>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>      
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="description">
+                                <div class="row">
+                                  <div class="col-lg-9">
+                                    <h4>Description of Traveling</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ak incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravidat doerski. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo.</p>
+                                  </div>
+                                  <div class="col-lg-3">
+                                    <div class="text-icon">
+                                      <h4><img src="../Corona_RSMH_MG_2022/assets/images/listing-icon-heading.png" alt=""> Total Listings</h4>
+                                    </div>
+                                    <span class="list-item">This Week: 200 Listings &amp; 120 Sales<br>This Month: 1,400 Listings &amp; 900 Sales<br>This Year: 14,000 Listings &amp; 12,000 Sales</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <div class="col-lg-12">
+                              <div class="general-info">
+                                <div class="row">
+                                  <div class="col-lg-12">
+                                    <h4>General Info. about Traveling</h4>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor ak incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravidat doerski. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque.</p>
+                                    <span class="list-item">* Listing should have all the proper documents before being checked in.
+                                    <br>** Listing will be checked by our team members.
+                                    <br>*** After being sold, it should imediately be removed from our site and properly monitored.</span>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ul>
+                </div>          
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+<!-- TemplateEndEditable -->
+<footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4">
+          <div class="about">
+            <div class="logo">
+              <img src="../Corona_RSMH_MG_2022/assets/images/black-logo.png" alt="">
+            </div>
+            <p>Lorem ipsum dolor sit amet, consectetur adicingi elit, sed do eiusmod tempor incididunt ut et dolore magna aliqua.</p>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="helpful-links">
+            <h4>Länkar</h4>
+            <div class="row">
+              <div class="col-lg-12">
+                <ul>
+                  <li><a href="../Corona_RSMH_MG_2022/www.rsmhstockholm.se">RSMH Stockholm</a></li>
+                  <li><a href="../Corona_RSMH_MG_2022/www.rsmh.se">RSMH Riks</a></li>
+                  <li><a href="../Corona_RSMH_MG_2022/www.fhm.se">FHM</a></li>
+                  <li><a href="../Corona_RSMH_MG_2022/www.slso.se">SLSO</a></li>
+                </ul>
+              </div>
+              <!-- <div class="col-lg-6">
+                <ul>
+                  <li><a href="#">About Us</a></li>
+                  <li><a href="#">Awards</a></li>
+                  <li><a href="#">Useful Sites</a></li>
+                  <li><a href="#">Privacy Policy</a></li>
+                </ul>
+              </div> -->
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4">
+          <div class="contact-us">
+            <h4>Kontakta oss</h4>
+            <p><strong>Adress:</strong><br>Bellmansgatan 30, <br>118 47 Stockholm <br>
+            <!-- <div class="row"> -->
+              
+				  <strong>Tel nr:</strong> <br>08 644 62 20 <br> 
+				  <strong>mail</strong> <br>
+				  info@rsmhstockholm.se </p>
+				  
+                            <!-- <div class="col-lg-6">
+                <a href="#">090-080-0760</a>
+              </div> -->
+            <!--</div> -->
+          </div>
+        </div>
+        <div class="col-lg-12">
+          <div class="sub-footer">
+            <p>Copyright © 2021 RSMH Mälardalen Gotland. <br> All Rights Reserved.
+            <br>
+			</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scripts -->
+  <script src="../Corona_RSMH_MG_2022/vendor/jquery/jquery.min.js"></script>
+  <script src="../Corona_RSMH_MG_2022/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="../Corona_RSMH_MG_2022/assets/js/owl-carousel.js"></script>
+  <script src="../Corona_RSMH_MG_2022/assets/js/animation.js"></script>
+  <script src="../Corona_RSMH_MG_2022/assets/js/imagesloaded.js"></script>
+  <script src="../Corona_RSMH_MG_2022/assets/js/custom.js"></script>
+
+</body>
+
+</html>

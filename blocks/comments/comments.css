@@ -1,0 +1,14 @@
+/* ==========================================================================
+   Block: Comments
+   Dependencies: no dependencies
+   ========================================================================== */
+.comments__item {
+  margin-bottom: 60px;
+}
+.comments__item:last-child {
+  margin: 0;
+}
+.comments__reply {
+  padding-top: 60px;
+  padding-left: 64px;
+}

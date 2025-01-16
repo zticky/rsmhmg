@@ -1,0 +1,644 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>The Way Documentation Template</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; }
+		.box p { margin-bottom:10px; }
+	</style>
+</head>
+
+
+<body>
+	<div class="container">
+	
+		<p align="center"><img src="assets/images/logo.png" alt="The Way" /></p>
+		
+		<h3 class="center alt">	&ldquo;The Way&rdquo; Documentation by &ldquo;IG_design&rdquo;
+		  v1.0</h3>
+		
+<hr>
+		
+		<h1 class="center">&ldquo;The Way&rdquo;</h1>
+		
+<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 03/02/2014<br>
+					By: Ivan Grozdic aka IG_design<br>
+					Email: <a href="ivang.design@yahoo.com">ivang.design@yahoo.com</a>					</strong>				</p>
+</div><!-- end div .span-6 -->		
+	
+			<div class="span-12 last">
+				<p class="prepend-top append-0">Thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/IG_design">here</a>. Thanks so much!</p>
+    </div>
+	  </div><!-- end div .borderTop -->
+		
+		<hr>
+		
+		<h2 id="toc" class="alt">Table of Contents</h2>
+		<ol class="alpha">
+		  <li><a href="#cssFiles">CSS Files</a></li>
+		  <li><a href="#imgFiles">Image Files</a></li>
+		  <li><a href="#javascript">JavaScript</a></li>
+			<li><a href="#credits">Sources and Credits</a></li>
+	    </ol>
+		
+	  <p>&nbsp;</p>
+<hr>
+
+		<h1 id="cssFiles"><strong>B) CSS Files and Structure</strong> - <a href="#toc">top</a></h1>
+	  <p>This theme uses css files contained in the <strong>css</strong> folder<br>
+	  </p>
+	  <p><strong>Css files:</strong></p>
+	  <p>base<br>
+        layout<br> 
+		colorbox<br>
+        font-awesome<br> 
+        project<br> 
+        skeleton</p>
+	  <p><strong>Css file layout:</strong></p>
+
+<p>Menu:</p>
+<pre class="brush:css">
+
+ 
+/* #Navigation
+================================================== */
+
+
+#menu-wrap{
+    position: fixed;
+	padding-bottom:10px;
+	width:100%;
+	z-index:100000;
+	top:0;
+	left:0;
+}
+
+.menu-back{
+	background:rgba(245,245,245,0);
+}
+
+
+.cbp-af-header {
+	-webkit-transition : all 0.5s ease-out;
+	-moz-transition : all 0.5s ease-out;
+	-o-transition :all 0.5s ease-out;
+	transition : all 0.5s ease-out;
+}
+
+.cbp-af-header.cbp-af-header-shrink {
+	background:rgba(245,245,245,1);
+}
+.cbp-af-header.cbp-af-header-shrink .logo{
+	width:80px;
+	height:62px;
+	background:url('../images/logo.png') no-repeat center center;
+	background-size:80px 62px;
+	-webkit-transition : all 0.5s ease-out;
+	-moz-transition : all 0.5s ease-out;
+	-o-transition :all 0.5s ease-out;
+	transition : all 0.5s ease-out;
+}
+
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu {
+	margin-top:1px;
+	margin-bottom:0;
+	-webkit-transition : all 0.5s ease-out;
+	-moz-transition : all 0.5s ease-out;
+	-o-transition :all 0.5s ease-out;
+	transition : all 0.5s ease-out;
+}
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a {
+    color: #000;
+}
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li a:hover {
+    border-bottom:3px solid rgba(0,0,0,1);
+}
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li {
+	background:url('../images/line.png') 0 10px no-repeat;
+	background-size:17px 17px;
+	padding-left:25px;
+}
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li:first-child {
+	background:none;
+}
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li ul li:first-child { 
+	background:none; }
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li ul li { 
+	background:none;
+	padding-left:0; }
+.cbp-af-header.cbp-af-header-shrink ul.slimmenu li ul {
+	background:rgba(245,245,245,1);
+	box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+
+
+
+
+
+
+.logo{
+	position:absolute;
+	width:100px;
+	height:81px;
+	z-index:10000;
+	left:10px;
+	top:10px;
+	background:url('../images/logo1.png') no-repeat center center;
+	background-size:100px 81px;
+}
+
+
+
+.menu-collapser {
+    position: relative;
+    width: 100%;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    padding: 0 8px;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+.collapse-button {
+    position: absolute;
+    right: 8px;
+    top: 50%;
+    width: 40px;
+    background-image: linear-gradient(to bottom, #151515, #040404);
+    background-repeat: repeat-x;
+    border-style: solid;
+    border-width: 1px;
+    color: #000;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.1) inset, 0 1px 0 rgba(255, 255, 255, 0.075);
+    padding: 7px 10px;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    font-size: 14px;
+    text-align: center;
+
+    transform: translate(0, -50%);
+    -o-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    -moz-transform: translate(0, -50%);
+    -webkit-transform: translate(0, -50%);
+
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+.collapse-button:hover, .collapse-button:focus {
+    background-image: none;
+    background-color: #040404;
+    color: #FFF;
+}
+.collapse-button .icon-bar {
+    background-color: #fff;
+    border-radius: 1px 1px 1px 1px;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, 0.25);
+    display: block;
+    height: 2px;
+    width: 18px;
+    margin: 2px 0;
+}
+
+ul.slimmenu {
+	padding-top:10px;
+	padding-right:10px;
+	text-align:right;
+	margin-top:13px;
+	margin-bottom:10px;
+}
+ul.slimmenu li {
+    position: relative;
+    display: inline-block;
+}
+ul.slimmenu > li {}
+ul.slimmenu > li:first-child { border-left: 0 }
+ul.slimmenu > li:last-child { margin-right: 0 }
+ul.slimmenu li a {
+    display: block;
+    color: #fff;
+    padding: 10px 0px;
+	cursor:pointer;
+    margin: 0px 12px;
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	text-transform:uppercase;
+    border-bottom:3px solid rgba(0,0,0,0);
+    font-size: 12px;
+    -webkit-transition: all 300ms linear;
+    -moz-transition: all 300ms linear;
+    -o-transition: all 300ms linear;
+    -ms-transition: all 300ms linear;
+    transition: all 300ms linear; 
+}
+ul.slimmenu li a:hover {
+    border-bottom:3px solid rgba(255,255,255,1);
+    text-decoration: none;
+}
+ul.slimmenu li {
+	background:url('../images/line1.png') 0 10px no-repeat;
+	background-size:17px 17px;
+	padding-left:25px;
+}
+ul.slimmenu li:first-child {
+	background:none;
+}
+
+ul.slimmenu li .sub-collapser {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 100%;
+    z-index: 999;
+    cursor: pointer;
+}
+ul.slimmenu li .sub-collapser:before {
+	display:none;
+}
+ul.slimmenu li .sub-collapser > i {
+	display:none;
+}
+ul.slimmenu li ul {
+    margin: 0;
+    list-style-type: none;
+}
+ul.slimmenu li ul a{
+    font-size:10px;
+}
+ul.slimmenu li ul li:first-child { 
+	background:none; }
+ul.slimmenu li ul li {
+	background:none;
+	padding-left:0; }
+ul.slimmenu li > ul {
+    display: none;
+    position: absolute;
+	text-align:left;
+    left: 0;
+    top: 100%;
+    z-index: 999;
+    width: 200%;
+}
+ul.slimmenu li > ul > li ul {
+    display: none;
+    position: absolute;
+    left: 100%;
+    top: 0;
+    z-index: 999;
+    width: 100%;
+}
+ul.slimmenu.collapsed {
+	padding:0;
+	margin:0;
+}
+ul.slimmenu.collapsed li {
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+}
+ul.slimmenu.collapsed li a {
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0);
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box
+}
+ul.slimmenu.collapsed li .sub-collapser {
+    height: 40px;
+}
+ul.slimmenu.collapsed li > ul {
+    display: none;
+    position: static;
+}
+
+
+
+</pre>
+
+<p>slider:</p>
+<pre class="brush:css">
+
+.pagewrap{
+	height: 100%;
+	position:relative;
+}
+
+.pageblock{
+	width: 100%;
+	position:relative;
+}
+
+.pageblock#fullscreen{
+	height: 100%;
+	background: none;
+	position:relative;
+}
+
+.pageblock#fullscreen h1{
+	color: white;
+	font-size: 72px;
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+	font-weight:normal;
+}
+
+.pageblock#fullscreen .slider{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;
+}
+
+.pageblock#fullscreen .slider .slide{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	float: left;
+	position: absolute;
+}
+
+.pageblock#fullscreen .slider .slide .slidecontent{
+	position: absolute;
+	top: 47%;
+	width: 100%;
+	margin-top: -50px;
+	text-align: center; 
+	z-index: 100; 
+}
+
+.pageblock#fullscreen .slider .slide .slidecontent h1{
+	text-shadow: 0 0 25px rgba(0,0,0,0.6);
+	font-weight: bold;
+	font-size: 60px;
+	margin-top:40px;
+	padding: 0;
+	line-height: 60px;
+}
+.pageblock#fullscreen .slider .slide .slidecontent h1 span{
+	border:1px solid rgba(255,255,255,.5);
+	padding-left:40px;
+	padding-right:40px;
+	padding-top:20px;
+	padding-bottom:20px;
+	box-shadow: 0 0 15px rgba(0,0,0,0.1);
+}
+.pageblock#fullscreen .slider .slide .slidecontent h1 span span{
+	border:none;
+	padding-left:0;
+	padding-right:0;
+	padding-top:0;
+	padding-bottom:0;
+	box-shadow: none;
+}
+
+.pageblock#fullscreen .slider .slide .slidecontent .headersur{
+	font-size: 18px;
+	text-transform:uppercase;
+	text-shadow: 0 0 10px rgba(0,0,0,0.5);
+	font-family: 'Lato', sans-serif;
+	color: #fff;
+	display: block;
+	font-weight:400;
+}
+
+
+
+
+.pageblock#fullscreen #slideposition{
+	position: absolute;
+	bottom: 50px;
+	text-align:center;
+	margin:0 auto;
+	width:100%;
+}
+
+.pageblock#fullscreen #slideposition ul{
+	list-style-type: none;
+	text-align:center;
+	margin:0 auto;
+}
+
+.pageblock#fullscreen #slideposition ul li.indicator{
+	display: inline-block;
+	height: 15px;
+	width: 15px;
+	background: rgba(255,255,255,.3);
+	margin: 0px 7px;
+	box-shadow: 0 0 10px rgba(0,0,0,0.5);
+	padding: 0;
+	-webkit-border-radius: 999px;
+	-moz-border-radius: 999px;
+	border-radius: 999px;
+	overflow: hidden;
+	cursor: pointer;
+	z-index: 100; 
+}
+
+.pageblock#fullscreen #slideposition ul li.indicator.active{
+	background: rgba(255,255,255,.9);
+	height: 15px;
+	width: 15px;
+}
+
+</pre>
+
+<p>About:</p>
+<pre class="brush:css">
+
+#about{
+	position: relative; 
+	margin: 0 auto;
+	width: 100%;
+	overflow:hidden;
+	z-index:2;
+	padding-top:70px;
+	padding-bottom:100px;
+}
+#about h5{
+	text-align:left;
+	padding-bottom:20px;
+}
+.top-text{
+	position:relative;
+	width:100%;
+	margin:0 auto;
+	text-align:center;
+	padding-bottom:40px;
+}
+.subline{
+	position:relative;
+	width:80px;
+	margin:0 auto;
+	text-align:center;
+	padding-top:15px;
+}
+.top-subtext{
+	position:relative;
+	margin:0 auto;
+	text-align:center;
+	font-family: 'OpenSans-Light-webfont';
+	font-size: 18px;
+	line-height:24px;
+	opacity:.8;
+	color:#827b7d;
+	padding-top:25px;
+}
+
+.subtext{
+	text-align:left;
+	padding-bottom:25px;
+	font-family: 'OpenSans-Light-webfont';
+	font-size: 18px;
+	line-height:26px;
+	color:#827b7d;
+	opacity:.7;
+	-webkit-font-smoothing: antialiased;
+}
+.line-separator{
+	position:relative;
+	width:100%;
+	border-bottom:1px dashed rgba(60,60,60,.1);
+	margin-bottom:30px;
+	padding-bottom:30px;
+}
+
+
+
+#about *,
+#about *:after,
+#about *::before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.elasticstack {
+	position: relative;
+	margin: 0 auto;
+	margin-bottom:20px;
+	padding: 0;
+	width: 340px;
+	height: 310px;
+	list-style: none;
+	-webkit-perspective: 1000px;
+	-webkit-perspective-origin: 50% 150%;
+	perspective: 1000px;
+	perspective-origin: 50% 150%;
+	z-index:100;
+}
+
+.no-js .elasticstack {
+	max-width: 1090px;
+	width: 100%;
+	height: auto;
+	text-align: center;
+}
+
+.elasticstack li {
+	position: absolute;
+	z-index: 1;
+	width: 340px;
+	height: 310px;
+	border-width: 10px 10px 40px 10px;
+	border-style: solid;
+	border-color: #fff;
+	box-shadow: 0 10px 7px -7px rgba(0,0,0,0.12), 0 0 4px rgba(0,0,0,0.1);
+	opacity: 0;
+	cursor: pointer;
+	-webkit-transform: translate3d(0,0,-180px);
+	transform: translate3d(0,0,-180px);
+	-webkit-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.no-js .elasticstack li {
+	position: relative;
+	display: inline-block;
+	opacity: 1;
+	margin: 10px;
+	cursor: default;
+	-webkit-transform: translate3d(0,0,0);
+	transform: translate3d(0,0,0);
+}
+
+.elasticstack li img {
+	display: block;
+	width: 320px;
+	height: 260px;
+}
+
+.elasticstack li h4 {
+	margin-top:5px;
+	color: rgba(60,60,60,.6);
+	font-family: 'Lato', sans-serif;
+	font-weight:700;
+	height: 30px;
+	font-size: 12px;
+	line-height:30px;
+}
+
+.elasticstack li.animate {
+	-webkit-transition: all 0.3s ease-out;
+	transition: all 0.3s ease-out;
+}
+
+
+
+
+</pre>
+
+
+      <hr>
+		
+	  <h3 id="imgFiles">&nbsp;</h3>
+	  <h1><strong>C) Image Files - <a href="#toc">top</a></strong></h1>
+	  <p>All the graphic elements for the entire theme are contained at the &quot;<strong>images</strong>&quot; folder.</p>
+	  <p>&nbsp;</p>
+      <hr>
+	  <h1 id="javascript"></h1>
+      <h1><strong>D) JavaScript</strong> - <a href="#toc">top</a></h1>
+	  <p>All the pages link the neccessary js files inside the &quot;head&quot; tag of the document. If you need to modify the behavior from a certain jquery element open the <strong>&quot;js</strong>&quot; folder where you can alter the parameters of some of the js elements.</p>
+
+	  <p>&nbsp;</p>
+    <hr>
+		
+		<h1 id="credits">&nbsp;</h1>
+		<h1>E) Sources and Credits - <a href="#toc">top</a></h1>
+	  <p>I've used the following images, icons or other files as listed.        
+	  <h3>JAVASCRIPT      </h3>
+	  <ul><li><a href="http://jquery.com/" target="_blank">jQuery</a></li>
+			<li><a href="http://modernizr.com/"> modernizr-latest</a></li>
+			<li><a href="http://gsgd.co.uk/sandbox/jquery/easing/">jquery.easing.1.3</a></li>
+	  </ul>
+	  <h3>FONTS    </h3>
+		<ul>
+			<li><a href="http://www.google.com/fonts/specimen/Lato" target="_blank">Lato</a></li>
+	  </ul>
+<hr>
+		
+		<p class="prepend-top append-0">Once again, thank you for purchasing my theme. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="http://themeforest.net/user/IG_design">here</a>. Thanks so much!</p>
+		
+	  <p class="append-bottom alt large">IG_design</p>
+		<p><a href="#toc">Go To Table of Contents</a></p>
+		
+		<p align="center"><img src="assets/images/logo.png" alt="The Way" /></p>
+		
+		<hr class="space">
+	</div><!-- end div .container -->
+</body>
+</html>

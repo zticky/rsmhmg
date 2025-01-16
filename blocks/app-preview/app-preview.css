@@ -1,0 +1,11 @@
+/* ==========================================================================
+   Block: App Preview
+   Dependencies: no dependencies
+   ========================================================================== */
+.app-preview--mb {
+  margin-bottom: -140px;
+}
+.app-preview__image {
+  width: 450px;
+  max-width: 100%;
+}

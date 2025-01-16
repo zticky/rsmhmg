@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Continuous Left Sliding Text Slider</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+            color: white;
+            text-align: center;
+            background-color: black;
+        }
+
+        .hero-image-container {
+            position: relative;
+            width: 100%;
+            height: 500px; /* Set a fixed height for the hero image */
+            overflow: hidden;
+        }
+
+        .hero-image-container img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1; /* Ensure the image is below the slider text */
+        }
+
+        .slider-container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 80%; /* Set the width to 80% of the screen */
+            height: 100%;
+            transform: translate(-50%, -50%); /* Center the container both vertically and horizontally */
+            z-index: 2; /* Ensure slider text appears above the hero image */
+            color: white;
+            font-size: 2rem;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7); /* Optional shadow for better readability */
+            display: flex;
+            align-items: center; /* Center the text vertically */
+            justify-content: center; /* Center the text horizontally */
+            overflow: hidden; /* Hide any content that overflows the container */
+        }
+
+        .slider {
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+            width: 100%; /* Ensure the slider spans the full width */
+        }
+
+        .slide {
+            min-width: 100%;
+            min-height: 150px;
+            box-sizing: border-box;
+            padding: 20px;
+            
+            background: rgba(0, 0, 0, 0.3); /* Semi-transparent background */
+            flex: 0 0 100%;
+            display: flex;
+            align-items: center; /* Vertically center the text */
+            justify-content: center; /* Horizontally center the text */
+        }
+
+        .helo-text {
+            margin-top: 20px;
+            font-size: 2rem;
+            text-align: center;
+        }
+
+        .navigation-dots {
+            position: absolute;
+            bottom: 30px; /* Move the dots below the slider text */
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            justify-content: center;
+            margin-top: 10px;
+            z-index: 3; /* Ensure the dots are above the image */
+        }
+
+        .dot {
+            width: 10px;
+            height: 10px;
+            margin: 0 5px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.6);
+            cursor: pointer;
+        }
+
+        .dot.active {
+            background: white;
+        }
+
+        .nav-buttons {
+            position: absolute;
+            top: 50%;
+            left: 0;
+            right: 0;
+            display: flex;
+            justify-content: space-between;
+            transform: translateY(-50%);
+            z-index: 3; /* Ensure buttons are on top of the image */
+            width: 100%; /* Ensure buttons take up the full width of the slider container */
+        }
+
+        .nav-button {
+            background: rgba(0, 0, 0, 0); 
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 4px;
+        }
+
+        .nav-button:hover {
+            background: rgba(0, 0, 0, 0); 
+            color: white;
+        }
+
+        /* Mobile view adjustments */
+        @media (max-width: 768px) {
+            .slider-container {
+                width: 100%;
+                font-size: 1.5rem; /* Reduce font-size for smaller screens */
+            }
+
+            .helo-text {
+                font-size: 1.2rem; /* Adjust "Helo" text for mobile */
+            }
+
+            .slider-container {
+                font-size: 1.5rem; /* Adjust slider text for smaller screens */
+            }
+        }
+
+        /* Adjust slider text size for different screen widths */
+        @media (max-width: 1024px) {
+            .slider-container {
+                font-size: 1.8rem; /* Adjust slider text for medium screens */
+            }
+        }
+
+        @media (max-width: 600px) {
+            .slider-container {
+                font-size: 1.2rem; /* Further reduce font size for small screens */
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hero-image-container">
+        <!-- Hero Image -->
+        <img src="stockholm2.webp" alt="Hero Image">
+        
+        <!-- Slider Text -->
+        <div class="slider-container">
+            <div class="nav-buttons">
+                <button class="nav-button" id="prev-btn">❮</button>
+                <button class="nav-button" id="next-btn">❯</button>
+            </div>
+
+            <div class="slider">
+                <div class="slide">
+                    <h2>Välkommen till<br>RSMH Mälardalen Gotland.</h2>
+                </div>
+                <div class="slide">
+                    <h2>Vi verkar för RSMH:s lokalföreningar i Stockholm, Södermanland och Gotland.</h2>
+                </div>
+                <div class="slide">
+                    <h2>Det finns det 16 lokalföreningar fördelade över regionerna.</h2>
+                </div>
+                <div class="slide">
+                    <h2>Besök våra lokalföreningar och bli medlem.</h2>
+                </div>
+                <div class="slide">
+                    <h2>Välkommen till RSMH Mälardalen Gotland.</h2>
+                </div> <!-- Duplicate of first slide -->
+            </div>
+        </div>
+
+        <!-- Dots below slider text -->
+        <div class="navigation-dots">
+            <div class="dot active"></div>
+            <div class="dot"></div>
+            <div class="dot"></div>
+        </div>
+    </div>
+
+    <!-- Helo text placed below the image -->
+    <div class="helo-text">Helo</div>
+
+    <script>
+        const slider = document.querySelector('.slider');
+        const slides = document.querySelectorAll('.slide');
+        const dots = document.querySelectorAll('.dot');
+        const prevBtn = document.getElementById('prev-btn');
+        const nextBtn = document.getElementById('next-btn');
+        let currentIndex = 0;
+        let isAnimating = false;
+
+        function updateSlider(index) {
+            slider.style.transition = 'transform 0.5s ease-in-out';
+            slider.style.transform = `translateX(-${index * 100}%)`;
+            dots.forEach((dot, i) => {
+                dot.classList.toggle('active', i === index % (slides.length - 1)); // Ensure dots reset correctly
+            });
+        }
+
+        function showNextSlide() {
+            if (isAnimating) return;
+            isAnimating = true;
+
+            currentIndex++;
+            updateSlider(currentIndex);
+
+            // Handle loop back to first slide
+            if (currentIndex === slides.length - 1) {
+                setTimeout(() => {
+                    slider.style.transition = 'none';
+                    slider.style.transform = 'translateX(0)';
+                    currentIndex = 0;
+                    isAnimating = false;
+                }, 500); // Wait for animation to complete
+            } else {
+                setTimeout(() => (isAnimating = false), 500);
+            }
+        }
+
+        function showPrevSlide() {
+            if (isAnimating) return;
+            isAnimating = true;
+
+            if (currentIndex === 0) {
+                // Jump to the duplicate slide without animation
+                slider.style.transition = 'none';
+                slider.style.transform = `translateX(-${(slides.length - 1) * 100}%)`;
+                currentIndex = slides.length - 2;
+
+                setTimeout(() => {
+                    slider.style.transition = 'transform 0.5s ease-in-out';
+                    slider.style.transform = `translateX(-${currentIndex * 100}%)`;
+                    updateSlider(currentIndex);
+                    isAnimating = false;
+                }, 0);
+            } else {
+                currentIndex--;
+                updateSlider(currentIndex);
+                setTimeout(() => (isAnimating = false), 500);
+            }
+        }
+
+        function goToSlide(index) {
+            if (isAnimating) return;
+            currentIndex = index;
+            updateSlider(currentIndex);
+        }
+
+        nextBtn.addEventListener('click', showNextSlide);
+        prevBtn.addEventListener('click', showPrevSlide);
+
+        dots.forEach((dot, index) => {
+            dot.addEventListener('click', () => goToSlide(index));
+        });
+
+        // Auto slide every 10 seconds
+        setInterval(showNextSlide, 10000);
+    </script>
+</body>
+</html>

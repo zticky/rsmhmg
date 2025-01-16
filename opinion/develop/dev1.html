@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<!-- Page title -->
+	<title>VSVlog - Elegant Vlog / Blog Theme.</title>
+	<!-- Page description -->
+	<meta name="description" content="A professional Vlog / Blog HTML template for your project. Designed and developed by VSArt.">
+	<!-- Meta -->
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Favicon  -->
+	<link rel="apple-touch-icon" sizes="57x57" href="../../assets/img/common/favicon/apple-touch-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="../../assets/img/common/favicon/apple-touch-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="../../assets/img/common/favicon/apple-touch-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="../../assets/img/common/favicon/apple-touch-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="../../assets/img/common/favicon/apple-touch-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="../../assets/img/common/favicon/apple-touch-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="../../assets/img/common/favicon/apple-touch-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="../../assets/img/common/favicon/apple-touch-icon-152x152.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="../../assets/img/common/favicon/apple-touch-icon-180x180.png">
+	<link rel="icon" type="image/png" href="../../assets/img/common/favicon/favicon-32x32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="../../assets/img/common/favicon/android-chrome-192x192.png" sizes="192x192">
+	<link rel="icon" type="image/png" href="../../assets/img/common/favicon/favicon-96x96.png" sizes="96x96">
+	<link rel="icon" type="image/png" href="../../assets/img/common/favicon/favicon-16x16.png" sizes="16x16">
+	<link rel="manifest" href="../../assets/img/common/favicon/manifest.json">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="msapplication-TileImage" content="assets/img/common/favicon/mstile-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- Include StyleSheets -->
+	<link rel="stylesheet" href="../../dist/style.css">
+	<!-- <link rel="stylesheet" href="css/custom.css"> -->
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+</head>
+
+<body class="js-preload-me">
+	<!--[if lt IE 8]>
+	    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+	<![endif]-->
+	<!-- Preloader -->
+	<div class="preloader js-preloader">
+		<div class="preloader__holder">REC</div>
+	</div>
+	<!-- End of Preloader -->
+	<!-- Page -->
+	<div class="page js-page "> </div>
+	
+	<!-- 
+  Replace form-handler.php with URL where to send the form-data when the form is submitted
+  Goto http://w3c.github.io/html-reference/input.text.html#input.text for more information on all attributes that can be used with text input field
+-->
+<form method="post" action="form-handler.php">
+  <div>
+    <h4>Text Field</h4>
+    <label for="name">Name: <span class="required">*</span> </label>
+    <input type="text" id="name" name="name" value="" placeholder="Your name" required="required" autofocus />
+  </div>
+  
+  <div>
+    <h4>Email Field</h4>
+    <label for="email">Email Address: <span class="required">*</span> </label>
+    <input type="email" id="email" name="email" value="" placeholder="your@email.com" required="required" />
+  </div>
+  
+  <div>
+    <h4>Password Field</h4>
+    <label for="password">New Password: <span class="required">*</span> </label>
+    <input type="password" id="password" name="password" value="" placeholder="" required="required" />
+  </div>
+  
+  <div>
+    <h4>Drop Down Menu</h4>
+    <label for="subject">Subject:</label>
+    <select id="subject" name="subject">
+      <option value="hello">Subject 1</option>
+      <option value="quote">Subject 2</option>
+      <option value="general">Subject 3</option>
+    </select>
+  </div>
+  
+  <div>
+    <h4>Text Area</h4>
+    <label for="message">Message: <span class="required">*</span> </label>
+    <textarea id="message" name="message" placeholder="Write your message here." required ></textarea>
+  </div>
+  
+  <div>
+    <h4>Radio Buttons</h4>
+    <label for="radio-choice-1">Choice 1</label>
+    <input type="radio" name="radio-choice" id="radio-choice-1" tabindex="2" value="choice-1">
+    <label for="radio-choice-2">Choice 2</label>
+    <input type="radio" name="radio-choice" id="radio-choice-2" tabindex="3" value="choice-2">
+  </div>
+  
+  <div>
+    <h4>Check Boxes</h4>
+    <label for="checkbox1">Choice 1:</label>
+    <input type="checkbox" name="checkbox1" id="checkbox1">
+    <label for="checkbox2">Choice 2:</label>
+    <input type="checkbox" name="checkbox2" id="checkbox2">
+  </div>
+  
+  <div>
+    <input type="submit" value="Submit" id="submit" />
+  </div>
+</form>
+	
+	<input type="button" value="Back" onclick="history.back()" />
+
+	
+	<!-- End of Page -->
+	<script src="../../dist/dev/vendor.js"></script>
+	<script src="../../dist/dev/blocks.js"></script>
+	<!-- <script src="dist/custom.js"></script> -->
+	<!-- Google Analytics: change UA-XXXXX-X to be your site's ID. -->
+	<!-- 
+    <script>
+        (function(b,o,i,l,e,r){b.GoogleAnalyticsObject=l;b[l]||(b[l]=
+        function(){(b[l].q=b[l].q||[]).push(arguments)});b[l].l=+new Date;
+        e=o.createElement(i);r=o.getElementsByTagName(i)[0];
+        e.src='//www.google-analytics.com/analytics.js';
+        r.parentNode.insertBefore(e,r)}(window,document,'script','ga'));
+        ga('create','UA-XXXXX-X','auto');ga('send','pageview');
+    </script>
+     -->
+</body>
+
+</html>
